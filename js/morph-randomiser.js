@@ -7,6 +7,7 @@ function selectRandomMorph() {
 
 function updateMorph() {
   document.getElementsByClassName("morph-tangle-image")[0].src="img/MOD_morph_tangle_"+selectRandomMorph()+"_animated.svg";
+  // $(".morph-tangle-image").attr('src', '/siteassets/images/MOD_morph_tangle_'+selectRandomMorph()+'_animated.svg');
 }
 
 updateMorph();
