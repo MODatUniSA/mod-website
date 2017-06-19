@@ -176,11 +176,11 @@ footer img:hover {
 }
 
 .page-body h1 {
-  color: rgba(255,255,255,.6);
+  color: rgba(255,255,255,.8);
 }
 
 .page-body h2, .page-body h3, .page-body h4 {
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.6);
   font-size: 1.4rem;
   margin-bottom: 1em;
 }
