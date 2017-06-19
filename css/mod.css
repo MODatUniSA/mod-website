@@ -1,0 +1,261 @@
+/* MOD. style yo */
+@font-face {
+  font-family: 'GalanoGrotesqueBold';
+  src: url('../fonts/galano-grotesque-bold.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/galano-grotesque-bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+a {
+  color: rgb(194, 37, 185); /* MOD light purple */
+}
+
+a:hover {
+  color: rgb(98, 203, 202); /* MOD light aqua */
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+.page-body h1 + h2 {
+  font-size: 1.2rem;
+  /* font-weight: 300; */
+}
+
+p {
+  font-weight: 300;
+}
+
+.form-check {
+  margin-left: 2.5rem;
+}
+
+#subForm {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-family: 'GalanoGrotesqueBold', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.nav {
+  background-color: rgba(12, 12, 12, 0.9);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar {
+  padding: .5rem 2.5rem;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.container-mod {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 5.5rem 2.5rem 2rem 2.5rem;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 400;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.dropdown-menu {
+  background-color: rgb(26, 26, 26);
+  margin-top: -1px;
+  border-radius: 0 0 .25rem .25rem;
+  left: -1px;
+}
+
+.dropdown-menu a {
+  color: rgba(255,255,255,.5);
+}
+
+.morph-tangle, .social-media {
+  text-align: center;
+  color: rgba(255,255,255,.5);
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.social-media {
+  font-size: 2em;
+}
+
+.social-media > * a {
+  color: inherit;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.social-media > * a:hover {
+  color: rgb(98, 203, 202); /* MOD light aqua */
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255,255,255,.5);
+  font-size: 0.8em;
+  font-weight: 200;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 1em;
+}
+
+footer .row .col-sm {
+  padding: 2em;
+}
+
+footer .row .col-sm + .col-sm {
+  text-align: center;
+}
+
+footer > * a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+footer > * a:hover {
+  color: rgb(98, 203, 202); /* MOD light aqua */
+}
+
+footer img {
+  opacity: 0.5;
+}
+
+footer img:hover {
+  opacity: 1.0;
+}
+
+/* Page styling */
+
+.page-body {
+  margin-bottom: 2em;
+  color: rgba(255,255,255,.8);
+}
+
+.page-body h1 {
+  color: rgba(255,255,255,.6);
+}
+
+.page-body h2, .page-body h3, .page-body h4 {
+  color: rgba(255,255,255,.4);
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+}
+
+.hero-image {
+  width: 111%;
+  margin-left: -2.5rem;
+}
+
+.figure-caption {
+  color: rgba(255,255,255,.4);
+}
+
+p + h2, p + h3, p + h4 {
+  margin-top: 1.5em;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) No media query since this is the default in Bootstrap */
+@media (max-width: 575px) {
+  footer .row .col-sm {
+    text-align: center;
+  }
+  .morph-tangle .morph-tangle-image {
+    width: 90%;
+  }
+  .navbar .navbar-brand {
+    margin-left: -0.5em;
+    margin-top: -0.3em;
+  }
+
+  footer > * .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-mod {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero-image {
+    width: 118%;
+    margin-left: -1.5rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .morph-tangle .morph-tangle-image {
+    width: 60%;
+    margin-top: 1em;
+  }
+
+  footer > * .navbar-brand {
+    -ms-transform: rotate(-90deg) translate(-10px, -10px); /* IE 9 */
+    -webkit-transform: rotate(-90deg) translate(-10px, -10px); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg) translate(-10px, -10px);
+    font-size: 2em;
+  }
+
+  footer > * .navbar-brand + p {
+    margin-top: -62px;
+    margin-left: 60px;
+    /* -ms-transform: translate(60px, -62px); */
+    /* -webkit-transform: translate(60px, -62px); */
+    /* transform: translate(60px, -62px); */
+    width: 68%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

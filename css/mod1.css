@@ -1,0 +1,30 @@
+/* MOD. style yo */
+@font-face {
+  font-family: 'GalanoGrotesqueBold';
+  src: url('../fonts/galano-grotesque-bold.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/galano-grotesque-bold.otf') format('opentype');
+  font-weight: bold;
+}
+body {
+  background: black;
+  color: white;
+  font-family: 'GalanoGrotesqueBold', sans-serif;
+}
+h1  {
+  font-size: 6em;
+}
+.container {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+svg path {
+  stroke: aqua;
+  stroke-width: 0.5em;
+  fill: none;
+}
+#curvey {
+  stroke: purple;
+}
