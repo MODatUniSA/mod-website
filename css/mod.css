@@ -9,7 +9,8 @@
 body {
   background: black;
   /* color: white; */
-  color: rgba(255,255,255,.7);
+/*   color: rgba(255,255,255,.7); */
+color: #d2d2d2;
 }
 
 a {
@@ -60,7 +61,8 @@ p {
 }
 
 .navbar-inverse .navbar-nav .nav-link {
-  color: rgba(255,255,255,.7);
+  /* color: rgba(255,255,255,.7); */
+  color: #d2d2d2;
 }
 
 .navbar-inverse .navbar-nav .nav-link:hover {
@@ -83,7 +85,8 @@ p {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 400;
-  color: rgba(255,255,255,.7);
+  /* color: rgba(255,255,255,.7); */
+  color: #d2d2d2;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -110,7 +113,8 @@ p {
 }
 
 .dropdown-menu a {
-  color: rgba(255,255,255,.7);
+  /* color: rgba(255,255,255,.7); */
+  color: #d2d2d2;
 }
 
 .morph-tangle, .social-media {
@@ -176,15 +180,18 @@ footer .social-media {
 
 .page-body {
   margin-bottom: 2em;
-  color: rgba(255,255,255,.8);
+  /* color: rgba(255,255,255,.8); */
+  color: #ffffff;
 }
 
 .page-body h1 {
-  color: rgba(255,255,255,.8);
+  /* color: rgba(255,255,255,.8); */
+  color: #d2d2d2;
 }
 
 .page-body h2, .page-body h3, .page-body h4 {
-  color: rgba(255,255,255,.6);
+  /* color: rgba(255,255,255,.6); */
+  color: #e0e0e0;
   font-size: 1.4rem;
   margin-bottom: 1em;
 }
