@@ -220,6 +220,32 @@ p + h2, p + h3, p + h4 {
   margin-top: 1.5em;
 }
 
+.blog-card img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.blog-card {
+  background-color: rgba(255, 255, 255, 0.11);
+  margin: 1rem;
+  padding: 0rem 0rem 1rem 0rem;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.blog-card h4, .blog-card h5, .blog-card h6 {
+  padding: 0rem 2rem;
+}
+
+.blog-card a {
+  color: inherit;
+}
+
+.blog-card a:hover, .blog-card a:hover h4 {
+  text-decoration: none;
+  color: rgb(98, 203, 202);
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) No media query since this is the default in Bootstrap */
@@ -282,16 +308,26 @@ p + h2, p + h3, p + h4 {
   footer .row .col-sm + .col-sm {
     text-align: right;
   }
+
+  .hero-image {
+    width: 117.5%;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  
+  .hero-image {
+    width: 112.5%;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  .hero-image {
+    width: 111.1%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
