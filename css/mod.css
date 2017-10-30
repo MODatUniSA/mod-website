@@ -246,6 +246,15 @@ p + h2, p + h3, p + h4 {
   color: rgb(98, 203, 202);
 }
 
+.carousel-indicators {
+  bottom: -30px;
+}
+
+#wakeCarousel {
+  width: 111.1%;
+  margin-left: -2.5rem;
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) No media query since this is the default in Bootstrap */
@@ -273,6 +282,11 @@ p + h2, p + h3, p + h4 {
 
   .hero-image {
     width: 118%;
+    margin-left: -1.5rem;
+  }
+
+  #wakeCarousel {
+    width: 113%;
     margin-left: -1.5rem;
   }
 }
@@ -318,6 +332,9 @@ p + h2, p + h3, p + h4 {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero-image {
+    width: 115%;
+  }
+  #wakeCarousel {
     width: 112.5%;
   }
 
@@ -328,9 +345,14 @@ p + h2, p + h3, p + h4 {
   .hero-image {
     width: 111.1%;
   }
+  #wakeCarousel {
+    width: 111.1%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  #wakeCarousel {
+    width: 111.1%;
+  }
 }
