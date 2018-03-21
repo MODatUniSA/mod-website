@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MOD. morph tangles</title>
+  <style type="text/css">
+    @font-face {
+      font-family: 'GalanoGrotesqueBold';
+      src: url('fonts/galano-grotesque-bold.otf'); /* IE9 Compat Modes */
+      src: url('fonts/galano-grotesque-bold.otf') format('opentype');
+      font-weight: bold;
+    }
+    body, html {
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+    }
+    .container {
+      /*background-color: rgba(255, 255, 255, 0.08);*/
+      width: 1200px;
+      height: 614px;
+      margin: 0px auto;
+    }
+    .morph-tangle-image {
+      /*transform: rotate(280deg);*/
+      position: absolute;
+      top: 0px;
+      left: 200px;
+      width: 1000px;
+    }
+    h1 {
+      font-family: 'GalanoGrotesqueBold', sans-serif;
+      font-weight: bold;
+      font-size: 5em;
+      color: white;
+      position: absolute;
+      padding: 0px;
+      margin: 0px;
+      top: 410px;
+      left: 100px;
+      transform: rotate(-90deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container container-mod">
+    <div class="morph-tangle">
+      <!-- Animation: https://maxwellito.github.io/vivus/ -->
+      <p><a href="#"><img src="img/MOD_morph_tangle_6_animated.svg" class="morph-tangle-image" onclick="updateMorph();"></a></p>
+    </div>
+  </div>
+  <!-- Morph Tangle randomiser -->
+  <script src="js/morph-randomiser.js" type="text/javascript"></script>
+  <!-- Keypress to trigger morph change -->
+  <script type="text/javascript">
+    window.onload(window.addEventListener("keypress", updateMorph));
+  </script>
+</body>
+</html>
